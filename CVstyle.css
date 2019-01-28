@@ -1,0 +1,50 @@
+h1{
+	color: black;
+	text-align: center;
+	background-color: #8FF124;
+	padding: 20px;
+	margin: 0px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	
+}
+
+.infper{
+	text-align: center;
+	background-color: #8FF124;
+	padding: 5px;
+	margin: 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.subtit{
+	padding: 5px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.carrer{
+	color: black;
+}
+
+.infedu{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.cont{
+	background-color: #64EDF9;
+	margin: 5px;
+}
+
+.proyect{
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.txtProject{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.nose{
+	float: right;
+}
+
+
+
