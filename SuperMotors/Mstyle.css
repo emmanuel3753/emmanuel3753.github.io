@@ -1,0 +1,392 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+}
+
+
+body{
+	 background-color: black;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background: black;
+}
+
+
+.container-header{
+	width: 100%;
+	max-width: 1200px;
+	position: relative;
+	margin: auto;
+}
+
+.logo-title{
+	display: flex;
+}
+
+.logo-title img{
+	width: 80px;
+	height: 80px;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+.logo-title h4{
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+	margin-top: 32px;
+}
+
+.icon-menu{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: white;
+	font-size: 28px;
+
+}
+
+/* Portada */
+
+.container-ducati{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-image: url(./imagen/xdiavel.jpg);
+	background-size: 100%;
+	animation: movimiento 11s infinite linear alternate;
+	margin-top: 20px;
+}
+.container-harley{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-image: url(./imagen/FXSB_Breakout_LOC_GMA15.jpg);
+	background-size: 100%;
+	animation: movimiento 9s infinite linear alternate;
+	margin-top: 10px;
+}
+.container-triumph{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-image: url(./imagen/triumph.jpg);
+	background-size: 100%;
+	animation: movimiento 10s infinite linear alternate;
+	margin-top: 10px;
+}
+.container-bmw{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-image: url(./imagen/800RR.jpg);
+	background-size: 100%;
+	animation: movimiento 11s infinite linear alternate;
+	margin-top: 10px;
+}
+
+.container-video{
+	max-width: auto;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-size: 100%;
+	margin-top: 10px;
+	padding-bottom: 20px; 
+}
+
+@keyframes movimiento{
+	from{
+		background-position: bottom left;
+		}to{
+			background-position: top right; 
+	}
+}
+
+.capa-gradient{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: -webkit-linear-gradient(left, black, transparent);
+	opacity: 0.5;
+}
+
+.container-details{
+	width: 100%;
+	max-width: 1200px;
+	position: relative;
+	margin: auto;
+	text-align: left;
+}
+
+.details{
+	width: 100%;
+	max-width: 500px;
+	position: relative;
+	top: 20px;
+	left: 10px;
+	color:  white;
+
+}
+
+.details h1{
+	font-size: 40px;
+	font-weight: 100;
+
+}
+
+.details p{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.details button{
+	padding: 10px 20px;
+	font-size: 16px;
+	background: none;
+	border-style: none;
+	border: 3px solid green;
+	color: white;
+	margin-top: 30px;
+	transition: background 300ms;
+	cursor:pointer;
+}
+
+.details button:hover{
+	background: white;
+	color:black;
+}
+
+.btn-modelos-motos{
+	padding: 10px 20px;
+	margin-top: 50px;
+	margin-left: 250px;
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif; 
+	background: none;
+	border-style: none;
+	/*border: 1px solid rgb(168, 5, 5);*/
+	color: white;
+	transition: 300ms;
+	cursor:pointer;
+}
+.btn-modelos-motos:hover{
+	background: black;
+	color:rgb(250, 6, 6);
+}
+
+.btn-accesorios{
+	padding: 10px 20px;
+	margin-top: 50px;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif; 
+	background: none;
+	border-style: none;
+	/*border: 1px solid rgb(168, 5, 5);*/
+	color: white;
+	transition: 300ms;
+	cursor:pointer;
+}
+.btn-accesorios:hover{
+	background: black;
+	color:rgb(250, 6, 6);
+}
+.btn-contacto{
+	padding: 10px 20px;
+	margin-top: 50px;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif; 
+	background: none;
+	border-style: none;
+	/*border: 1px solid rgb(168, 5, 5);*/
+	color: white;
+	transition: 300ms;
+	cursor:pointer;
+}
+.btn-contacto:hover{
+	background: black;
+	color:rgb(250, 6, 6);
+}
+
+.btn_logout{
+	padding: 10px 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif; 
+	background: none;
+	border-style: none;
+	/*border: 1px solid rgb(168, 5, 5);*/
+	color: white;
+	transition: 300ms;
+	cursor:pointer;
+}
+.btn_logout:hover{
+	background: black;
+	color:rgb(250, 6, 6);
+}
+
+.btn-log{
+	padding: 10px 20px;
+	margin-top: 50px;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif; 
+	background: none;
+	border-style: none;
+	/*border: 1px solid rgb(168, 5, 5);*/
+	color: white;
+	transition: 300ms;
+	cursor:pointer;
+}
+.btn-log:hover{
+	background: black;
+	color:rgb(250, 6, 6);
+}
+
+.btn-registro{
+	padding: 10px 20px;
+	margin-top: 50px;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif; 
+	background: none;
+	border-style: none;
+	/*border: 1px solid rgb(168, 5, 5);*/
+	color: white;
+	transition: 300ms;
+	cursor:pointer;
+}
+.btn-registro:hover{
+	background: black;
+	color:rgb(250, 6, 6);
+}
+
+.btn-agregar{
+	padding: 10px 20px;
+	margin-top: 50px;
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif; 
+	background: none;
+	border-style: none;
+	border: 1px solid rgb(168, 5, 5);
+	-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+	color: white;
+	transition: 300ms;
+	cursor:pointer;
+}
+.btn-agregar:hover{
+	background: black;
+	color:rgb(250, 6, 6);
+}
+
+.btn-quitar{
+	padding: 10px 20px;
+	margin-top: 50px;
+	margin-bottom:  10px;
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif; 
+	background: none;
+	border-style: none;
+	border: 1px solid rgb(168, 5, 5);
+	-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+	color: white;
+	transition: 300ms;
+	cursor:pointer;
+}
+.btn-quitar:hover{
+	background: black;
+	color:rgb(250, 6, 6);
+}
+.container-subpagina{
+	font-family: 'Exo 2', sans-serif;
+	width: auto;
+	height: 90px;
+	position: relative;
+	background-size: 100%;
+	margin: 50px 30px;
+}
+
+.container-subpagina h1{
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+	font-size: 25px;
+}
+
+/* articulo*/
+
+main{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+article{
+	width: 100%;
+	max-width: 800px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+article h1{
+	font-size: 40px;
+	font-weight: 100;
+
+}
+
+article hr{
+	max-width: 600px;
+	height: 3px;
+	border-style: none;
+	/*background: red;*/
+	background: -webkit-linear-gradient(left, black, red);
+	margin-top: 10px;
+}
+
+article p{
+	font-size: 20px;
+	margin-top: 20px;
+	font-weight: 100; 
+}
+
+@media screen and (max-width: 500px){
+	.details p{
+		font-size: 18px;
+	}
+}
+
+.linea-header{
+	/*color: antiquewhite;*/
+	max-width: auto;
+	height: 3px;
+	border-style: none;
+	/*background: red;*/
+	background: -webkit-linear-gradient(right, rgb(36, 10, 10), rgb(189, 12, 12));
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.usuario{
+	font-family: 'Exo 2', sans-serif;
+
+	text-align: left;
+	padding-left: 350px;
+}
+
+.hiperC{
+	padding-left: 600px; 
+}
+
+.headCarrito{
+	padding-bottom: 20px; 
+}

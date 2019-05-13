@@ -1,0 +1,63 @@
+<!--    Template    -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SuperMotors</title>
+    <meta name = "viewport" content="width-device-width", initial-scale=1></meta>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+	<link rel="stylesheet" href="Mstyle.css">
+	<link rel="stylesheet" href="icon/estudio.png">
+	<link rel="stylesheet" href="./css/card_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:600i" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="css/custom.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+
+</head>
+<body>
+		
+		<div class="container-header">
+			<div class="logo-title">
+				<a href="index.html">
+					<img src="imagen/moto2.png" alt="" onclick="window.location.href = 'index.html';">
+				</a>
+				<h4> SUPER MOTORS </h4>
+				<div class="buttons">
+					<button class="btn-modelos-motos" onclick="window.location.href = 'modelos.html';">Modelos</button>
+					<button class="btn-accesorios" onclick="window.location.href = 'accesorios.html';">Accesorios</button>
+					<button class="btn-contacto" onclick="window.location.href = 'contactanos.html';">Carrito</button>
+                    <button class="btn-log" onclick="window.location.href = 'log.html';">Login</button>
+					<button class="btn-registro" onclick="window.location.href = 'registro.html';">Registro</button>
+					<button class="btn_logout" id="logout_btn" type="submit" >Logout</button>
+				</div>
+			</div>
+			<label class="icon-menu"> </label>
+		</div>
+		<hr class="linea-header"></hr>
+		
+<!--    Template    -->
+    <p id="userName" class="usuario"></p>
+	<div class="container-subpagina">
+		<div class="container-details">
+			<div class="container-details">
+				<h1>Modelos</h1>
+			</div>
+		</div>
+	</div>
+	
+
+			<div id="model_section"></div>
+		
+	
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/modelos.js"></script>
+  <script type="text/javascript" src="js/user_name.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
